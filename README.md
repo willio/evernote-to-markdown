@@ -1,12 +1,13 @@
-# enex2writer
+# Evernote to Markdown
 
-Offline Evernote ENEX → Markdown conversion for iA Writer and other
-Markdown-first editors.
+Convert Evernote's `.enex` export file to `.md` Markdown files for iA Writer
+and other Markdown-compatible editors.
 
-`enex2writer` turns an Evernote desktop ENEX export into one UTF-8 `.md` file
-per note, a shared `assets/` directory, and a `manifest.json` conversion
-report. It uses only Python’s standard library at runtime, so the conversion
-can run without network access.
+`enex2writer` is an offline Evernote to Markdown converter. It turns an
+Evernote desktop `.enex` export into one UTF-8 `.md` file per note, a shared
+`assets/` directory, and a `manifest.json` conversion report. It uses only
+Python’s standard library at runtime, so the conversion can run without
+network access.
 
 ## Features
 
